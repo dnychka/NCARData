@@ -11,3 +11,13 @@ expanded directory are posted.
 
 In case the old webpage has been removed from NCAR also included is a pdf 
 of the page and also the R functions that are referred to on the page. 
+
+These data are freely available in the public domain. Just this formatting 
+is original.  If you use these data, however,  please cite this source. 
+
+DISCLAIMER:
+The accuracy or reliability of the data is not guaranteed or warranted in 
+any way and the providers disclaim liability of any kind whatsoever, 
+including, without limitation, liability for quality, performance, 
+merchantability and fitness for a particular purpose arising out of the 
+use, or inability to use the data
