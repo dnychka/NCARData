@@ -1,0 +1,29 @@
+
+The complete temperature files have the names 
+
+tmin.complete.Ynnn
+tmax.complete.Ynnn
+where nnn = 001, 002, ..., 103
+temperature always appears as a integer in hundredths of degree C  
+
+
+There are a total of 8125 station locations and each file has 8215 lines. 
+
+Metadata on these stations is found in METAinfo
+columns of this file are:
+ station id elevation , longitude and latitude. 
+
+Each separate data file consists of the tempertures for a single year
+each line of the file is data for one station according to the format:
+
+station id, 12 temps ( jan-dec) , 12 missing values codes (1=missing, 0= 
+present). When a data value is missing a statistically infilled value 
+appears. 
+
+Typical line looks like:
+
+010148     -3  -44   52  111  142  181  194  196  173   61   56   15  000000000000
+and is written with the FORTRAN format statement format(a8,12I5,2x, 12I1)
+
+
+
